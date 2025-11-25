@@ -12,6 +12,20 @@ import "../styles/global.css";
 <Layout>
   <Hero {...SITE_CONTENT.hero} />
   <Experience experience={SITE_CONTENT.experience} />
+
+  <section id="tools" class="py-24">
+    <h2
+      class="mb-8 font-serif text-4xl font-bold tracking-tighter text-white md:text-5xl"
+    >
+      Favorite Tools
+    </h2>
+    <ul class="text-base text-neutral list-disc pl-4">
+      <li>Cursor</li>
+      <li>Figma</li>
+      <li>CSS</li>
+    </ul>
+  </section>
+
   <Projects projects={SITE_CONTENT.projects} />
   <About {...SITE_CONTENT.about} name={SITE_CONTENT.hero.name} />
 </Layout>
