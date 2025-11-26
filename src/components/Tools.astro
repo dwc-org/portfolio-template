@@ -1,0 +1,15 @@
+---
+import Section from "./Section.astro";
+
+interface Props {
+  tools: string[];
+}
+
+const { tools } = Astro.props;
+---
+
+<Section text="Favorite Tools" href="tools">
+  <ul class="list-disc pl-4 text-base text-neutral">
+    {tools.map((tool) => <li>{tool}</li>)}
+  </ul>
+</Section>
