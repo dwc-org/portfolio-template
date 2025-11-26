@@ -14,6 +14,12 @@ importers:
       '@fontsource-variable/gabarito':
         specifier: ^5.1.0
         version: 5.2.6
+      '@fontsource-variable/inter':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource-variable/onest':
+        specifier: ^5.2.11
+        version: 5.2.11
       '@fontsource/be-vietnam-pro':
         specifier: ^5.1.0
         version: 5.2.6
@@ -283,6 +289,12 @@ packages:
 
   '@fontsource-variable/gabarito@5.2.6':
     resolution: {integrity: sha512-pXhojiApjvDdo8HWo3BtKIeccO8pRF9n+xiErGir1An2wLokWaKImXwjyo47aJHPiGOzEF75O0anzfeVCe0NMg==}
+
+  '@fontsource-variable/inter@5.2.8':
+    resolution: {integrity: sha512-kOfP2D+ykbcX/P3IFnokOhVRNoTozo5/JxhAIVYLpea/UBmCQ/YWPBfWIDuBImXX/15KH+eKh4xpEUyS2sQQGQ==}
+
+  '@fontsource-variable/onest@5.2.11':
+    resolution: {integrity: sha512-knJww1KxK4g66+qu90q3CPBvl4zhL5oDRi3/JMkYMmlhW3OgyRgT4MMfgd6jg2lvho7bLPAXfsYPh59h0yzwUA==}
 
   '@fontsource/be-vietnam-pro@5.2.6':
     resolution: {integrity: sha512-OdXpfoB7RFk6e2nby+nzeMW1DKNBkl4aE8zVC9LOJLt9ixA0LrH1kUZeFA5t4zpyIoMa1MIKyuoH/lJbUKhWsQ==}
@@ -2319,6 +2331,10 @@ snapshots:
     optional: true
 
   '@fontsource-variable/gabarito@5.2.6': {}
+
+  '@fontsource-variable/inter@5.2.8': {}
+
+  '@fontsource-variable/onest@5.2.11': {}
 
   '@fontsource/be-vietnam-pro@5.2.6': {}
 

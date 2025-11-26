@@ -12,7 +12,7 @@ const { name, specialty, summary, email } = Astro.props;
     {name}
   </h1>
   <p
-    class="mb-9 font-serif text-4xl leading-[46px] font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl"
+    class="mt-4 mb-9 font-serif text-4xl leading-[46px] font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl"
   >
     {specialty}
   </p>
@@ -20,8 +20,15 @@ const { name, specialty, summary, email } = Astro.props;
     {summary}
   </p>
 
-  <a
-    class="inline-block rounded-full bg-primary px-8 py-5 text-sm leading-5 font-medium text-[#fff]"
-    href={`mailto:${email}`}>Get in Touch</a
-  >
+  <div class="flex gap-4">
+    <a
+      class="inline-block rounded-full bg-indigo-600 px-6 py-4 text-sm leading-5 font-medium text-white hover:bg-indigo-700"
+      href={`mailto:${email}`}>Get in Touch</a
+    >
+
+    <a
+      class="inline-block rounded-full border border-neutral/20 bg-transparent px-6 py-4 text-sm leading-5 font-medium text-white hover:bg-neutral/5"
+      href="#projects">Browse Projects</a
+    >
+  </div>
 </section>
