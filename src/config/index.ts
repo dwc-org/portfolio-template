@@ -1,23 +1,20 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
-  description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+  title: "Mikolaj — Product Designer & Engineer",
+  author: "Mikolaj Dobrucki",
+  description: "Product Designer and Engineer based in Krakow, Poland.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/mikolaj-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "X", href: "https://x.com/mikolajdobrucki" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/mikolajdobrucki/" },
+    { text: "Github", href: "https://github.com/mikolajdobrucki" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,11 +22,11 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Mikolaj Dobrucki",
+    specialty: "Product Designer & Engineer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Product Designer and Engineer based in Krakow, Poland.",
+    email: "contact@mikolajdobrucki.com",
   },
   experience: [
     {
@@ -87,11 +84,11 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      I started learning how to design and code websites when I was a kid, about 20 years ago. Back then, there was no one around to tell these are usually two different jobs. And so I grew up, believing that designing with code is the most natural way to go.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Today, I work as a Staff  Product Designer at Castle and run several side projects, such as Design with Code and Launch UI. I also occiasionally write, speak at and organize conferences.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/mikolaj-big.jpg",
   },
 };
 
