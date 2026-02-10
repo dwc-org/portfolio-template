@@ -1,8 +1,8 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Mikolaj — Product Designer & Engineer",
   author: "Mikolaj Dobrucki",
+  tagline: "Product Designer & Engineer",
   description: "Product Designer and Engineer based in Krakow, Poland.",
   lang: "en",
   siteLogo: "/mikolaj-small.jpg",
@@ -22,10 +22,9 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Mikolaj Dobrucki",
-    specialty: "Product Designer & Engineer",
-    summary:
-      "Product Designer and Engineer based in Krakow, Poland.",
+    name: SITE_CONFIG.author,
+    specialty: SITE_CONFIG.tagline,
+    summary: SITE_CONFIG.description,
     email: "contact@mikolajdobrucki.com",
   },
   experience: [
@@ -90,6 +89,11 @@ export const SITE_CONTENT: SiteContent = {
     `,
     image: "/mikolaj-big.jpg",
   },
+  tools: [
+    "Cursor",
+    "Figma",
+    "CSS"
+  ],
 };
 
 // #5755ff
