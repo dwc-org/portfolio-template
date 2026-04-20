@@ -1,35 +1,50 @@
-# AstroZen - Personal Portfolio Website
+# Portfolio Template — Design with Code
 
-AstroZen is a minimalist, accessible and responsive portfolio template for your personal portfolio website. It is built with Astro and TailwindCSS.
+The official starter project for the [**Design with Code**](https://designwithcode.dev) course.
+
+This is a minimalist, accessible, and responsive portfolio template built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com). You'll fork this repository through Vercel, clone it to your computer, and evolve it into your own personal site across the course's exercises.
 
 ![zen-og](https://github.com/user-attachments/assets/7a72aaae-6652-4cd0-becc-8e6a3c224993)
 
 > [!NOTE]
-> The information contained in this template, including names, images, and content, is entirely fictitious and is intended solely to give the design a realistic appearance. Any coincidence with real-life people, events, or situations is purely coincidental. It is recommended that you replace this information with your own information.
+> The content in this template — names, photos, project descriptions — is fictitious. You'll replace it with your own during the course.
 
-## 🔥 Features
+## Deploy your own copy
 
-- [x] Minimalist design. clean and simple
-- [x] Mobile-first responsive layout
-- [x] SEO-friendly and accessible
-- [x] Easy to customize with a single configuration file
+Click the button below to create your own copy of this repository on GitHub and deploy it to Vercel in one flow:
 
-## ✅ Lighthouse Score
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dwc-org/portfolio-template&project-name=astrozen&repository-name=astrozen)
 
-![performance](https://github.com/user-attachments/assets/4f95e2ca-03f9-4996-9e34-dcd179194c58)
+Vercel will:
 
-## 🚀 Getting Started
+1. Ask you to sign in with GitHub.
+2. Create a new repository in your GitHub account based on this template.
+3. Deploy the site to a `*.vercel.app` URL.
 
-Clone this repository to your local machine using Git.
+From there, follow the course to clone your new repository locally and start editing.
 
-```scheme
-git clone https://github.com/immois/astro-zen.git
-cd astro-zen
+## Run it locally
+
+Requires [Node.js](https://nodejs.org) 22.12 or newer (use the LTS download).
+
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+npm install
+npm run dev
 ```
 
-| Command        | Action                                       |
-| :------------- | :------------------------------------------- |
-| `pnpm install` | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying |
+| Command         | Action                                       |
+| :-------------- | :------------------------------------------- |
+| `npm install`   | Install dependencies                         |
+| `npm run dev`   | Start the dev server at `localhost:4321`     |
+| `npm run build` | Build the production site to `./dist/`       |
+| `npm run preview` | Preview the production build locally       |
+
+## Follow the course
+
+Full lessons, videos, and exercises are at [designwithcode.dev](https://designwithcode.dev). The `course-exercises` branch of this repository contains the reference commits used in the "Compare your code" sections of each lesson.
+
+## License
+
+[MIT](./LICENSE)
